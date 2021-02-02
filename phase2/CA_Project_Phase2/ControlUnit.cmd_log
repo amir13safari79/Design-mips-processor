@@ -1,0 +1,59 @@
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "ControlUnit.ngc" ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+vhdtdtfi -lang verilog -prj CA_Project_Phase2 -o "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.tfi" -lib work "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2//ControlUnit.v" -module ControlUnit -template E:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work {D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.v} -lang verilog -prj CA_Project_Phase2 -o ControlUnit.spl -module ControlUnit -template E:/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ControlUnit.spl {D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.sym} 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "ControlUnit.ngc" ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "ControlUnit.ngc" ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "ControlUnit.ngc" ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "ControlUnit.ngc" ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "ControlUnit.ngc" ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "ControlUnit.ngc" ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "ControlUnit.ngc" ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "ControlUnit.ngc" ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "ControlUnit.ngc" ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "ControlUnit.ngc" ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 

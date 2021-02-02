@@ -1,0 +1,60 @@
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Instruction_mem.ngc" Instruction_mem.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Instruction_mem_map.ncd Instruction_mem.ngd Instruction_mem.pcf 
+par -w -intstyle ise -ol high -mt off Instruction_mem_map.ncd Instruction_mem.ncd Instruction_mem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruction_mem.twx Instruction_mem.ncd -o Instruction_mem.twr Instruction_mem.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Instruction_mem.ngc" Instruction_mem.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Instruction_mem_map.ncd Instruction_mem.ngd Instruction_mem.pcf 
+par -w -intstyle ise -ol high -mt off Instruction_mem_map.ncd Instruction_mem.ncd Instruction_mem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruction_mem.twx Instruction_mem.ncd -o Instruction_mem.twr Instruction_mem.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Instruction_mem.ngc" Instruction_mem.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Instruction_mem_map.ncd Instruction_mem.ngd Instruction_mem.pcf 
+par -w -intstyle ise -ol high -mt off Instruction_mem_map.ncd Instruction_mem.ncd Instruction_mem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruction_mem.twx Instruction_mem.ncd -o Instruction_mem.twr Instruction_mem.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Instruction_mem.ngc" Instruction_mem.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Instruction_mem_map.ncd Instruction_mem.ngd Instruction_mem.pcf 
+par -w -intstyle ise -ol high -mt off Instruction_mem_map.ncd Instruction_mem.ncd Instruction_mem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruction_mem.twx Instruction_mem.ncd -o Instruction_mem.twr Instruction_mem.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Instruction_mem.ngc" Instruction_mem.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Instruction_mem_map.ncd Instruction_mem.ngd Instruction_mem.pcf 
+par -w -intstyle ise -ol high -mt off Instruction_mem_map.ncd Instruction_mem.ncd Instruction_mem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruction_mem.twx Instruction_mem.ncd -o Instruction_mem.twr Instruction_mem.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Instruction_mem.ngc" Instruction_mem.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Instruction_mem_map.ncd Instruction_mem.ngd Instruction_mem.pcf 
+par -w -intstyle ise -ol high -mt off Instruction_mem_map.ncd Instruction_mem.ncd Instruction_mem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruction_mem.twx Instruction_mem.ncd -o Instruction_mem.twr Instruction_mem.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Instruction_mem.ngc" Instruction_mem.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Instruction_mem_map.ncd Instruction_mem.ngd Instruction_mem.pcf 
+par -w -intstyle ise -ol high -mt off Instruction_mem_map.ncd Instruction_mem.ncd Instruction_mem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruction_mem.twx Instruction_mem.ncd -o Instruction_mem.twr Instruction_mem.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Instruction_mem.ngc" Instruction_mem.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Instruction_mem_map.ncd Instruction_mem.ngd Instruction_mem.pcf 
+par -w -intstyle ise -ol high -mt off Instruction_mem_map.ncd Instruction_mem.ncd Instruction_mem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruction_mem.twx Instruction_mem.ncd -o Instruction_mem.twr Instruction_mem.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Instruction_mem.ngc" Instruction_mem.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Instruction_mem_map.ncd Instruction_mem.ngd Instruction_mem.pcf 
+par -w -intstyle ise -ol high -mt off Instruction_mem_map.ncd Instruction_mem.ncd Instruction_mem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruction_mem.twx Instruction_mem.ncd -o Instruction_mem.twr Instruction_mem.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Instruction_mem.ngc" Instruction_mem.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Instruction_mem_map.ncd Instruction_mem.ngd Instruction_mem.pcf 
+par -w -intstyle ise -ol high -mt off Instruction_mem_map.ncd Instruction_mem.ncd Instruction_mem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruction_mem.twx Instruction_mem.ncd -o Instruction_mem.twr Instruction_mem.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Instruction_mem.ngc" Instruction_mem.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Instruction_mem_map.ncd Instruction_mem.ngd Instruction_mem.pcf 
+par -w -intstyle ise -ol high -mt off Instruction_mem_map.ncd Instruction_mem.ncd Instruction_mem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruction_mem.twx Instruction_mem.ncd -o Instruction_mem.twr Instruction_mem.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase1/verilog code/CA_Project_Phase1/Instruction_mem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Instruction_mem.ngc" Instruction_mem.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Instruction_mem_map.ncd Instruction_mem.ngd Instruction_mem.pcf 
+par -w -intstyle ise -ol high -mt off Instruction_mem_map.ncd Instruction_mem.ncd Instruction_mem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Instruction_mem.twx Instruction_mem.ncd -o Instruction_mem.twr Instruction_mem.pcf 

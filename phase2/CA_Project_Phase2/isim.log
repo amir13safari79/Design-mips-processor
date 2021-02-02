@@ -1,0 +1,12 @@
+ISim log file
+Running: D:\electrical engineering\computer Architecture\project\phase2\CA_Project_Phase2\fib_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/fib_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 20us
+00000001 00000001 00000002 00000003 00000005 00000008 0000000d 00000015 00000022 00000037 00000059 00000090 000000e9 00000179 00000262 Stopped at time : 1280 ns(1) :  in File "D:/electrical engineering/computer Architecture/project/phase2/CA_Project_Phase2/fib_tb.v" Line 57 

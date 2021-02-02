@@ -1,0 +1,44 @@
+vhdtdtfi -lib work {D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.v} -lang verilog -prj CA_Project_Phase3 -o mips.spl -module mips -template E:/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 mips.spl {D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.sym} 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 

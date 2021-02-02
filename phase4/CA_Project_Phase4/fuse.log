@@ -1,0 +1,32 @@
+Running: E:\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/TopTb_isim_beh.exe -prj D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/TopTb_beh.prj work.TopTb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/MUX.v" into library work
+Analyzing Verilog file "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/RAM.v" into library work
+Analyzing Verilog file "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.v" into library work
+Analyzing Verilog file "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Processor.v" into library work
+Analyzing Verilog file "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/MemorySystem.v" into library work
+Analyzing Verilog file "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Top.v" into library work
+Analyzing Verilog file "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/TopTb.v" into library work
+Analyzing Verilog file "E:/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Processor
+Compiling module MUX
+Compiling module MUX(width=1)
+Compiling module MUX(width=3)
+Compiling module Cache
+Compiling module RAM
+Compiling module MemorySystem
+Compiling module Top
+Compiling module TopTb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\TopTb_isim_beh.exe.sim\libPortability.dll".
+Compiled 10 Verilog Units
+Built simulation executable D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/TopTb_isim_beh.exe
+Fuse Memory Usage: 28388 KB
+Fuse CPU Usage: 531 ms

@@ -1,0 +1,123 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+E:\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n 3
+-fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr
+ControlUnit.pcf
+
+Design file:              ControlUnit.ncd
+Physical constraint file: ControlUnit.pcf
+Device,package,speed:     xc6slx4,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+funct<0>       |ALUop<0>       |    7.455|
+funct<1>       |ALUop<0>       |    7.511|
+funct<1>       |ALUop<1>       |    7.452|
+funct<1>       |ALUop<2>       |    7.953|
+funct<2>       |ALUop<0>       |    7.538|
+funct<2>       |ALUop<1>       |    7.489|
+funct<2>       |ALUop<2>       |    7.953|
+funct<3>       |ALUop<0>       |    7.445|
+funct<3>       |ALUop<1>       |    7.395|
+funct<3>       |ALUop<2>       |    8.024|
+op<0>          |ALUop<0>       |    8.427|
+op<0>          |ALUop<1>       |    8.269|
+op<0>          |ALUop<2>       |    9.196|
+op<0>          |ALUsrc         |    6.259|
+op<0>          |MemWrite       |    6.469|
+op<0>          |MemtoReg       |    6.671|
+op<0>          |PCsrc          |    7.316|
+op<0>          |RegDst         |    6.706|
+op<0>          |RegWrite       |    8.234|
+op<0>          |SgnZero        |    6.724|
+op<1>          |ALUop<0>       |    8.390|
+op<1>          |ALUop<1>       |    8.613|
+op<1>          |ALUop<2>       |    9.159|
+op<1>          |ALUsrc         |    6.666|
+op<1>          |MemWrite       |    6.204|
+op<1>          |MemtoReg       |    6.191|
+op<1>          |PCsrc          |    7.279|
+op<1>          |RegDst         |    6.669|
+op<1>          |RegWrite       |    8.197|
+op<1>          |SgnZero        |    6.873|
+op<2>          |ALUop<0>       |    8.850|
+op<2>          |ALUop<1>       |    8.861|
+op<2>          |ALUop<2>       |    9.619|
+op<2>          |ALUsrc         |    6.200|
+op<2>          |MemWrite       |    6.813|
+op<2>          |MemtoReg       |    6.289|
+op<2>          |PCsrc          |    7.739|
+op<2>          |RegDst         |    7.129|
+op<2>          |RegWrite       |    8.657|
+op<2>          |SgnZero        |    6.363|
+op<3>          |ALUop<0>       |    8.730|
+op<3>          |ALUop<1>       |    8.944|
+op<3>          |ALUop<2>       |    9.499|
+op<3>          |ALUsrc         |    6.262|
+op<3>          |MemWrite       |    6.766|
+op<3>          |MemtoReg       |    6.529|
+op<3>          |PCsrc          |    7.619|
+op<3>          |RegDst         |    7.009|
+op<3>          |RegWrite       |    8.537|
+op<3>          |SgnZero        |    6.686|
+op<4>          |ALUop<0>       |    8.234|
+op<4>          |ALUop<1>       |    8.751|
+op<4>          |ALUop<2>       |    9.044|
+op<4>          |ALUsrc         |    6.411|
+op<4>          |MemWrite       |    6.631|
+op<4>          |MemtoReg       |    6.383|
+op<4>          |PCsrc          |    7.123|
+op<4>          |RegDst         |    6.513|
+op<4>          |RegWrite       |    8.041|
+op<4>          |SgnZero        |    6.634|
+op<5>          |ALUop<0>       |    8.666|
+op<5>          |ALUop<1>       |    8.508|
+op<5>          |ALUop<2>       |    9.435|
+op<5>          |ALUsrc         |    6.879|
+op<5>          |MemWrite       |    6.402|
+op<5>          |MemtoReg       |    6.289|
+op<5>          |PCsrc          |    7.555|
+op<5>          |RegDst         |    6.945|
+op<5>          |RegWrite       |    8.473|
+op<5>          |SgnZero        |    6.889|
+zero           |PCsrc          |    6.198|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Jun 12 01:34:01 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4553 MB
+
+
+

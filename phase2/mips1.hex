@@ -1,0 +1,5 @@
+
+addi $t1,$0,0x7fff
+addi  $t2,$0,0x8000
+slt  $t5,$t1,$t2
+sltu $t6,$t1,$t2

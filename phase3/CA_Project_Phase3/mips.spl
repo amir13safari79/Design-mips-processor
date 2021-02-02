@@ -1,0 +1,14 @@
+[Inputs]
+clk
+reset
+=InstrF[31:0]=
+=ReadDataM[31:0]=
+[Outputs]
+MemWriteM
+=PCF[31:0]=
+=ALUOutM[31:0]=
+=WriteDataM[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel mips
+

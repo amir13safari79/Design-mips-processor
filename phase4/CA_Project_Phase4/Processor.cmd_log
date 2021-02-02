@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Processor.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Processor.ngc" Processor.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Processor_map.ncd Processor.ngd Processor.pcf 
+par -w -intstyle ise -ol high -mt off Processor_map.ncd Processor.ncd Processor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Processor.twx Processor.ncd -o Processor.twr Processor.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Processor.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Processor.ngc" Processor.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Processor_map.ncd Processor.ngd Processor.pcf 
+par -w -intstyle ise -ol high -mt off Processor_map.ncd Processor.ncd Processor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Processor.twx Processor.ncd -o Processor.twr Processor.pcf 

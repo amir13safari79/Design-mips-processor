@@ -1,0 +1,19 @@
+addi $t0,$0,1
+addi $t1,$0,1
+addi $t4,$0,64
+sw $t0,0($t4)
+addi $t4,$t4,4
+sw $t1,0($t4)
+addi $t3,$0,15
+addi $t2,$0,2
+while:
+addi $t2,$t2,1
+addi $t4,$t4,4
+add $t6,$t0,$t1
+add $t0,$0,$t1
+add $t1,$0,$t6
+sw $t6,0($t4)
+slt $t5,$t2,$t3
+addi $t7,$0,1
+beq $t5,$t7,while
+#beq $0,$0,0xffff

@@ -1,0 +1,8 @@
+verilog work "MUX.v"
+verilog work "RAM.v"
+verilog work "Cache.v"
+verilog work "Processor.v"
+verilog work "MemorySystem.v"
+verilog work "Top.v"
+verilog work "TopTb.v"
+verilog work "E:/14.7/ISE_DS/ISE//verilog/src/glbl.v"

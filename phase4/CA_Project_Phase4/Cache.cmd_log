@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Cache.ngc" Cache.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Cache_map.ncd Cache.ngd Cache.pcf 
+par -w -intstyle ise -ol high -mt off Cache_map.ncd Cache.ncd Cache.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Cache.twx Cache.ncd -o Cache.twr Cache.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Cache.ngc" Cache.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Cache_map.ncd Cache.ngd Cache.pcf 
+par -w -intstyle ise -ol high -mt off Cache_map.ncd Cache.ncd Cache.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Cache.twx Cache.ncd -o Cache.twr Cache.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Cache.ngc" Cache.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Cache_map.ncd Cache.ngd Cache.pcf 
+par -w -intstyle ise -ol high -mt off Cache_map.ncd Cache.ncd Cache.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Cache.twx Cache.ncd -o Cache.twr Cache.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Cache.ngc" Cache.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Cache_map.ncd Cache.ngd Cache.pcf 
+par -w -intstyle ise -ol high -mt off Cache_map.ncd Cache.ncd Cache.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Cache.twx Cache.ncd -o Cache.twr Cache.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase4/CA_Project_Phase4/Cache.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "Cache.ngc" Cache.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Cache_map.ncd Cache.ngd Cache.pcf 
+par -w -intstyle ise -ol high -mt off Cache_map.ncd Cache.ncd Cache.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Cache.twx Cache.ncd -o Cache.twr Cache.pcf 

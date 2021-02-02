@@ -1,0 +1,322 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+E:\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n 3
+-fastpaths -xml Instruction_mem.twx Instruction_mem.ncd -o Instruction_mem.twr
+Instruction_mem.pcf
+
+Design file:              Instruction_mem.ncd
+Physical constraint file: Instruction_mem.pcf
+Device,package,speed:     xc6slx4,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+address<2>     |read_data<0>   |    9.066|
+address<2>     |read_data<1>   |    8.848|
+address<2>     |read_data<2>   |    9.950|
+address<2>     |read_data<3>   |   10.148|
+address<2>     |read_data<4>   |   10.116|
+address<2>     |read_data<5>   |    9.940|
+address<2>     |read_data<6>   |    8.803|
+address<2>     |read_data<7>   |    9.701|
+address<2>     |read_data<8>   |    9.937|
+address<2>     |read_data<9>   |    9.526|
+address<2>     |read_data<10>  |    9.862|
+address<2>     |read_data<11>  |   10.169|
+address<2>     |read_data<12>  |    9.778|
+address<2>     |read_data<13>  |   10.101|
+address<2>     |read_data<14>  |   10.522|
+address<2>     |read_data<15>  |   10.496|
+address<2>     |read_data<16>  |   11.054|
+address<2>     |read_data<17>  |   10.512|
+address<2>     |read_data<18>  |   11.408|
+address<2>     |read_data<21>  |   10.245|
+address<2>     |read_data<22>  |   11.567|
+address<2>     |read_data<23>  |   10.171|
+address<2>     |read_data<26>  |   10.020|
+address<2>     |read_data<27>  |    9.866|
+address<2>     |read_data<28>  |    9.091|
+address<2>     |read_data<29>  |    9.692|
+address<2>     |read_data<31>  |    9.994|
+address<3>     |read_data<0>   |    8.926|
+address<3>     |read_data<1>   |    9.092|
+address<3>     |read_data<2>   |   10.099|
+address<3>     |read_data<3>   |   10.180|
+address<3>     |read_data<4>   |   10.058|
+address<3>     |read_data<5>   |   10.184|
+address<3>     |read_data<6>   |    8.663|
+address<3>     |read_data<7>   |   10.014|
+address<3>     |read_data<8>   |   10.250|
+address<3>     |read_data<9>   |    9.839|
+address<3>     |read_data<10>  |   10.175|
+address<3>     |read_data<11>  |    9.950|
+address<3>     |read_data<12>  |    9.559|
+address<3>     |read_data<13>  |   10.345|
+address<3>     |read_data<14>  |   10.835|
+address<3>     |read_data<15>  |   10.809|
+address<3>     |read_data<16>  |   11.015|
+address<3>     |read_data<17>  |   10.240|
+address<3>     |read_data<18>  |   11.369|
+address<3>     |read_data<21>  |   10.277|
+address<3>     |read_data<22>  |   11.534|
+address<3>     |read_data<23>  |   10.138|
+address<3>     |read_data<26>  |    9.962|
+address<3>     |read_data<27>  |   10.015|
+address<3>     |read_data<28>  |    9.338|
+address<3>     |read_data<29>  |    9.420|
+address<3>     |read_data<31>  |    9.936|
+address<4>     |read_data<0>   |    8.672|
+address<4>     |read_data<1>   |    8.800|
+address<4>     |read_data<2>   |    9.773|
+address<4>     |read_data<3>   |   10.283|
+address<4>     |read_data<4>   |   10.141|
+address<4>     |read_data<5>   |    9.892|
+address<4>     |read_data<6>   |    8.409|
+address<4>     |read_data<7>   |    9.926|
+address<4>     |read_data<8>   |   10.162|
+address<4>     |read_data<9>   |    9.751|
+address<4>     |read_data<10>  |   10.087|
+address<4>     |read_data<11>  |    9.874|
+address<4>     |read_data<12>  |    9.483|
+address<4>     |read_data<13>  |   10.053|
+address<4>     |read_data<14>  |   10.747|
+address<4>     |read_data<15>  |   10.721|
+address<4>     |read_data<16>  |   11.232|
+address<4>     |read_data<17>  |   10.537|
+address<4>     |read_data<18>  |   11.586|
+address<4>     |read_data<21>  |   10.380|
+address<4>     |read_data<22>  |   11.787|
+address<4>     |read_data<23>  |   10.391|
+address<4>     |read_data<26>  |   10.045|
+address<4>     |read_data<27>  |    9.689|
+address<4>     |read_data<28>  |    9.525|
+address<4>     |read_data<29>  |    9.717|
+address<4>     |read_data<31>  |   10.019|
+address<5>     |read_data<0>   |    8.726|
+address<5>     |read_data<1>   |    8.618|
+address<5>     |read_data<2>   |   10.098|
+address<5>     |read_data<3>   |    9.997|
+address<5>     |read_data<4>   |    9.995|
+address<5>     |read_data<5>   |    9.710|
+address<5>     |read_data<6>   |    8.463|
+address<5>     |read_data<7>   |    9.548|
+address<5>     |read_data<8>   |    9.784|
+address<5>     |read_data<9>   |    9.373|
+address<5>     |read_data<10>  |    9.709|
+address<5>     |read_data<11>  |   10.012|
+address<5>     |read_data<12>  |    9.621|
+address<5>     |read_data<13>  |    9.871|
+address<5>     |read_data<14>  |   10.369|
+address<5>     |read_data<15>  |   10.343|
+address<5>     |read_data<16>  |   10.714|
+address<5>     |read_data<17>  |    9.916|
+address<5>     |read_data<18>  |   11.068|
+address<5>     |read_data<21>  |   10.094|
+address<5>     |read_data<22>  |   11.271|
+address<5>     |read_data<23>  |    9.875|
+address<5>     |read_data<26>  |    9.899|
+address<5>     |read_data<27>  |   10.014|
+address<5>     |read_data<28>  |    9.311|
+address<5>     |read_data<29>  |    9.096|
+address<5>     |read_data<31>  |    9.873|
+address<6>     |read_data<0>   |    8.075|
+address<6>     |read_data<1>   |    7.205|
+address<6>     |read_data<2>   |    8.852|
+address<6>     |read_data<3>   |    8.461|
+address<6>     |read_data<4>   |    9.345|
+address<6>     |read_data<5>   |    8.799|
+address<6>     |read_data<6>   |    7.812|
+address<6>     |read_data<7>   |    8.987|
+address<6>     |read_data<8>   |    9.223|
+address<6>     |read_data<9>   |    8.812|
+address<6>     |read_data<10>  |    9.148|
+address<6>     |read_data<11>  |    8.251|
+address<6>     |read_data<12>  |    8.606|
+address<6>     |read_data<13>  |    8.960|
+address<6>     |read_data<14>  |    9.808|
+address<6>     |read_data<15>  |    9.782|
+address<6>     |read_data<16>  |    9.735|
+address<6>     |read_data<17>  |    9.809|
+address<6>     |read_data<18>  |    9.875|
+address<6>     |read_data<21>  |    9.326|
+address<6>     |read_data<22>  |   10.081|
+address<6>     |read_data<23>  |    9.128|
+address<6>     |read_data<26>  |    9.249|
+address<6>     |read_data<27>  |    8.768|
+address<6>     |read_data<28>  |    8.180|
+address<6>     |read_data<29>  |    8.989|
+address<6>     |read_data<31>  |    9.223|
+address<7>     |read_data<0>   |    7.007|
+address<7>     |read_data<1>   |    6.694|
+address<7>     |read_data<2>   |    7.827|
+address<7>     |read_data<3>   |    8.149|
+address<7>     |read_data<4>   |    8.487|
+address<7>     |read_data<5>   |    8.198|
+address<7>     |read_data<6>   |    7.441|
+address<7>     |read_data<7>   |    8.695|
+address<7>     |read_data<8>   |    8.931|
+address<7>     |read_data<9>   |    8.520|
+address<7>     |read_data<10>  |    8.856|
+address<7>     |read_data<11>  |    8.287|
+address<7>     |read_data<12>  |    7.918|
+address<7>     |read_data<13>  |    8.359|
+address<7>     |read_data<14>  |    9.516|
+address<7>     |read_data<15>  |    9.490|
+address<7>     |read_data<16>  |    9.872|
+address<7>     |read_data<17>  |    8.647|
+address<7>     |read_data<18>  |    9.679|
+address<7>     |read_data<21>  |    8.370|
+address<7>     |read_data<22>  |    9.269|
+address<7>     |read_data<23>  |    8.209|
+address<7>     |read_data<26>  |    8.819|
+address<7>     |read_data<27>  |    8.610|
+address<7>     |read_data<28>  |    7.801|
+address<7>     |read_data<29>  |    8.340|
+address<7>     |read_data<31>  |    8.793|
+address<8>     |read_data<0>   |    7.319|
+address<8>     |read_data<1>   |    7.358|
+address<8>     |read_data<2>   |    7.749|
+address<8>     |read_data<3>   |    8.305|
+address<8>     |read_data<4>   |    8.085|
+address<8>     |read_data<5>   |    8.834|
+address<8>     |read_data<6>   |    7.279|
+address<8>     |read_data<7>   |    8.910|
+address<8>     |read_data<8>   |    9.146|
+address<8>     |read_data<9>   |    8.735|
+address<8>     |read_data<10>  |    9.071|
+address<8>     |read_data<11>  |    8.368|
+address<8>     |read_data<12>  |    8.418|
+address<8>     |read_data<13>  |    8.995|
+address<8>     |read_data<14>  |    9.731|
+address<8>     |read_data<15>  |    9.705|
+address<8>     |read_data<16>  |    9.771|
+address<8>     |read_data<17>  |    8.731|
+address<8>     |read_data<18>  |    9.508|
+address<8>     |read_data<21>  |    8.874|
+address<8>     |read_data<22>  |    9.698|
+address<8>     |read_data<23>  |    8.642|
+address<8>     |read_data<26>  |    8.491|
+address<8>     |read_data<27>  |    7.884|
+address<8>     |read_data<28>  |    7.689|
+address<8>     |read_data<29>  |    8.035|
+address<8>     |read_data<31>  |    8.465|
+address<9>     |read_data<0>   |    6.905|
+address<9>     |read_data<1>   |    6.981|
+address<9>     |read_data<2>   |    7.669|
+address<9>     |read_data<3>   |    8.024|
+address<9>     |read_data<4>   |    7.828|
+address<9>     |read_data<5>   |    8.645|
+address<9>     |read_data<6>   |    7.144|
+address<9>     |read_data<7>   |    8.813|
+address<9>     |read_data<8>   |    9.049|
+address<9>     |read_data<9>   |    8.638|
+address<9>     |read_data<10>  |    8.974|
+address<9>     |read_data<11>  |    8.184|
+address<9>     |read_data<12>  |    8.265|
+address<9>     |read_data<13>  |    8.806|
+address<9>     |read_data<14>  |    9.634|
+address<9>     |read_data<15>  |    9.608|
+address<9>     |read_data<16>  |    9.330|
+address<9>     |read_data<17>  |    8.114|
+address<9>     |read_data<18>  |    9.227|
+address<9>     |read_data<21>  |    8.533|
+address<9>     |read_data<22>  |    9.431|
+address<9>     |read_data<23>  |    8.367|
+address<9>     |read_data<26>  |    8.144|
+address<9>     |read_data<27>  |    8.132|
+address<9>     |read_data<28>  |    7.840|
+address<9>     |read_data<29>  |    7.706|
+address<9>     |read_data<31>  |    8.118|
+address<10>    |read_data<0>   |    6.931|
+address<10>    |read_data<1>   |    7.487|
+address<10>    |read_data<2>   |    7.799|
+address<10>    |read_data<3>   |    8.870|
+address<10>    |read_data<4>   |    8.629|
+address<10>    |read_data<5>   |    8.579|
+address<10>    |read_data<6>   |    7.414|
+address<10>    |read_data<7>   |    8.617|
+address<10>    |read_data<8>   |    8.853|
+address<10>    |read_data<9>   |    8.442|
+address<10>    |read_data<10>  |    8.778|
+address<10>    |read_data<11>  |    8.936|
+address<10>    |read_data<12>  |    8.545|
+address<10>    |read_data<13>  |    8.740|
+address<10>    |read_data<14>  |    9.438|
+address<10>    |read_data<15>  |    9.412|
+address<10>    |read_data<16>  |   10.437|
+address<10>    |read_data<17>  |    8.781|
+address<10>    |read_data<18>  |   10.791|
+address<10>    |read_data<21>  |    8.967|
+address<10>    |read_data<22>  |   10.470|
+address<10>    |read_data<23>  |    9.074|
+address<10>    |read_data<26>  |    9.342|
+address<10>    |read_data<27>  |    7.929|
+address<10>    |read_data<28>  |    8.999|
+address<10>    |read_data<29>  |    8.463|
+address<10>    |read_data<31>  |    9.316|
+address<11>    |read_data<0>   |    6.137|
+address<11>    |read_data<1>   |    6.116|
+address<11>    |read_data<2>   |    7.241|
+address<11>    |read_data<3>   |    7.979|
+address<11>    |read_data<4>   |    8.873|
+address<11>    |read_data<5>   |    7.584|
+address<11>    |read_data<6>   |    6.510|
+address<11>    |read_data<7>   |    8.405|
+address<11>    |read_data<8>   |    8.641|
+address<11>    |read_data<9>   |    8.230|
+address<11>    |read_data<10>  |    8.566|
+address<11>    |read_data<11>  |    7.565|
+address<11>    |read_data<12>  |    7.298|
+address<11>    |read_data<13>  |    7.745|
+address<11>    |read_data<14>  |    9.226|
+address<11>    |read_data<15>  |    9.200|
+address<11>    |read_data<16>  |    9.627|
+address<11>    |read_data<17>  |    8.643|
+address<11>    |read_data<18>  |    9.461|
+address<11>    |read_data<21>  |    8.678|
+address<11>    |read_data<22>  |    9.551|
+address<11>    |read_data<23>  |    8.485|
+address<11>    |read_data<26>  |    9.271|
+address<11>    |read_data<27>  |    7.948|
+address<11>    |read_data<28>  |    8.986|
+address<11>    |read_data<29>  |    8.395|
+address<11>    |read_data<31>  |    9.245|
+---------------+---------------+---------+
+
+
+Analysis completed Fri May 29 19:06:50 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4554 MB
+
+
+

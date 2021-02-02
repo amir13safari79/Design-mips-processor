@@ -1,0 +1,53 @@
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.xst" -ofn "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+vhdtdtfi -lib work {D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.v} -lang verilog -prj CA_Project_Phase3 -o top.spl -module top -template E:/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 top.spl {D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.sym} 
+vhdtdtfi -lang verilog -prj CA_Project_Phase3 -o "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3/top.tfi" -lib work "D:/electrical engineering/computer Architecture/project/phase3/CA_Project_Phase3//top.v" -module top -template E:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
